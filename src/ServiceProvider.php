@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YourNamespace\Translations;
+namespace LaravelLang\Attributes;
 
 use LaravelLang\Publisher\Concerns\BaseServiceProvider;
 

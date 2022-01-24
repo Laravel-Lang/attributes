@@ -2,10 +2,11 @@
 
 declare(strict_types=1);
 
-namespace YourNamespace\Translations;
+namespace LaravelLang\Attributes;
 
+use LaravelLang\Attributes\Plugins\Laravel;
+use LaravelLang\Attributes\Plugins\Lumen;
 use LaravelLang\Publisher\Plugins\BaseProvider;
-use YourNamespace\Translations\Plugins\Main;
 
 class Provider extends BaseProvider
 {
@@ -17,7 +18,8 @@ class Provider extends BaseProvider
     public function plugins(): array
     {
         return $this->resolvePlugins([
-            Main::class,
+            Laravel::class,
+            Lumen::class,
         ]);
     }
 }
