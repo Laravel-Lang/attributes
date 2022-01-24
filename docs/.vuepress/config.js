@@ -3,12 +3,12 @@ const path = require('path');
 
 module.exports = {
     lang: 'en-US',
-    title: 'Laravel Lang',
-    description: 'List of 78 languages for Laravel Framework 4-9, Jetstream, Fortify, Breeze, Cashier, Nova, Spark and UI.',
+    title: 'Laravel Lang Attributes',
+    description: 'List of 78 languages for form field names',
 
     head: [
         ['link', { rel: 'icon', href: '/images/logo.svg' }],
-        ['meta', { name: 'twitter:image', content: 'https://laravel-lang.com/images/social-logo.png' }]
+        ['meta', { name: 'twitter:image', content: 'https://attributes.laravel-lang.com/images/social-logo.png' }]
     ],
 
     theme: '@vuepress/theme-default',
@@ -17,17 +17,16 @@ module.exports = {
 
         logo: '/images/logo.svg',
 
-        repo: 'https://github.com/Laravel-Lang/lang',
+        repo: 'https://github.com/Laravel-Lang/attributes',
         repoLabel: 'GitHub',
-        docsRepo: 'https://github.com/Laravel-Lang/lang',
+        docsRepo: 'https://github.com/Laravel-Lang/attributes',
         docsBranch: 'master',
         docsDir: 'docs',
 
         editLink: true,
 
         navbar: [
-            { text: 'Translations Status', link: '/status.md' },
-            { text: '10.x', link: '/changelog/10.x.md' }
+            { text: 'Translations Status', link: '/status.md' }
         ],
 
         sidebarDepth: 1,
@@ -47,9 +46,7 @@ module.exports = {
                         link: '/installation/',
                         collapsible: true,
                         children: [
-                            '/installation/compatibility.md',
-                            '/installation/managers.md',
-                            '/installation/github.md'
+                            '/installation/compatibility.md'
                         ]
                     },
 
@@ -60,13 +57,6 @@ module.exports = {
                         link: '/status.md',
                         collapsible: true,
                         children: getChildren('statuses')
-                    },
-
-                    {
-                        text: 'Changelog',
-                        link: '/changelog/index.md',
-                        collapsible: true,
-                        children: getChildren('changelog', 'desc')
                     }
                 ]
             }, {

@@ -5,9 +5,7 @@
 All you need to do to get started is add Laravel Lang to your composer dependencies:
 
 ```bash:no-line-numbers
-composer require laravel-lang/lang --dev
+composer require laravel-lang/publisher laravel-lang/attributes --dev
 ```
 
-When installing the package this way, you will need to manually copy the files from the `vendor/laravel-lang/lang` folder into your application.
-
-If you want to automate the process, then use one of the [publishers](managers.md).
+To automate the process, then use our [publisher](https://publisher.laravel-lang.com).

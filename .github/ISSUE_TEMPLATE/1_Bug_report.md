@@ -1,6 +1,6 @@
 ---
 name: "Bug report"
-about: "Report something that's broken. Please ensure your Laravel version is still supported: https://github.com/Laravel-Lang/lang#via-composer"
+about: "Report something that's broken. Please ensure your Laravel version is still supported: https://github.com/Laravel-Lang/attributes#via-composer"
 ---
 
 <!-- DO NOT THROW THIS AWAY -->
