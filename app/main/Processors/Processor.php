@@ -46,12 +46,12 @@ abstract class Processor implements Processable
         $this->sort($target);
 
         if ($this->isValidation($filename)) {
-            $custom = $this->getFallbackValue($source, $target, 'custom');
+            $attributes = $this->getFallbackValue($source, $target, 'attributes');
 
             $source = Arr::except($source, ['attributes', 'custom']);
             $target = Arr::except($target, ['attributes', 'custom']);
 
-            return array_merge($source, $target, compact('custom'));
+            return array_merge($source, $target, compact('attributes'));
         }
 
         return array_merge($source, $target);

@@ -12,5 +12,7 @@
 */
 
 return [
-    'custom' => [],
+    'attributes' => [
+        'password' => 'heslo',
+    ],
 ];
