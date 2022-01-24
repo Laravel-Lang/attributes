@@ -33,15 +33,8 @@ class AddTest extends InlineOffTestCase
     {
         $this->copyFixtures();
 
-        $this->assertSame('Foo', __('custom.hello'));
-        $this->assertSame('Bar', __('custom.world'));
-        $this->assertSame('Unknown Foo', __('custom.unknown'));
-
-        $this->assertSame('Foo', __('Hello'));
-        $this->assertSame('Bar', __('World'));
-        $this->assertSame('Baz', __('Name'));
-        $this->assertSame('Baq', __('Email'));
-        $this->assertSame('Unknown Foo', __('Unknown'));
+        $this->assertSame('Foo', __('validation.attributes.address'));
+        $this->assertSame('Bar', __('validation.attributes.age'));
 
         $this->artisan('lang:add', [
             'locales' => $this->default,
@@ -49,14 +42,7 @@ class AddTest extends InlineOffTestCase
 
         $this->refreshLocales();
 
-        $this->assertSame('Foo', __('custom.hello'));
-        $this->assertSame('World!', __('custom.world'));
-        $this->assertSame('Unknown Foo', __('custom.unknown'));
-
-        $this->assertSame('Foo', __('Hello'));
-        $this->assertSame('Bar', __('World'));
-        $this->assertSame('Name', __('Name'));
-        $this->assertSame('Email', __('Email'));
-        $this->assertSame('Unknown Foo', __('Unknown'));
+        $this->assertSame('Address', __('validation.attributes.address'));
+        $this->assertSame('Age', __('validation.attributes.age'));
     }
 }

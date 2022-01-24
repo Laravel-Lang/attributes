@@ -64,17 +64,13 @@ abstract class TestCase extends BaseTestCase
         $config->set(Config::PRIVATE_KEY . '.path.base', realpath(__DIR__ . '/../vendor'));
 
         $config->set(Config::PUBLIC_KEY . '.excludes', [
-            'custom'   => ['hello'],
-            '{locale}' => ['Hello', 'World'],
+            'attributes' => ['age.hello'],
         ]);
     }
 
     protected function copyFixtures(): void
     {
-        $files = [
-            'en.json',
-            'custom.php',
-        ];
+        $files = ['validation.php'];
 
         foreach ($files as $filename) {
             $from = realpath(__DIR__ . '/fixtures/' . $filename);

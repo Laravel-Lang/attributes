@@ -12,14 +12,12 @@ class RemoveTest extends InlineOnTestCase
     public function testWithoutLanguageAttribute()
     {
         foreach ($this->locales as $locale) {
-            $this->assertFileDoesNotExist($this->resourcesPath($locale . '.json'));
-            $this->assertFileDoesNotExist($this->resourcesPath($locale, 'custom.php'));
+            $this->assertFileDoesNotExist($this->resourcesPath($locale, 'validation.php'));
             $this->assertDirectoryDoesNotExist($this->resourcesPath($locale));
 
             $this->artisan('lang:add', ['locales' => $locale])->run();
 
-            $this->assertFileExists($this->resourcesPath($locale . '.json'));
-            $this->assertFileExists($this->resourcesPath($locale, 'custom.php'));
+            $this->assertFileExists($this->resourcesPath($locale, 'validation.php'));
             $this->assertDirectoryExists($this->resourcesPath($locale));
 
             $this->artisan('lang:rm')
@@ -27,8 +25,7 @@ class RemoveTest extends InlineOnTestCase
                 ->expectsChoice('Select localizations to remove (specify the necessary localizations separated by commas):', $locale, Locales::installed())
                 ->assertExitCode(0);
 
-            $this->assertFileDoesNotExist($this->resourcesPath($locale . '.json'));
-            $this->assertFileDoesNotExist($this->resourcesPath($locale, 'custom.php'));
+            $this->assertFileDoesNotExist($this->resourcesPath($locale, 'validation.php'));
             $this->assertDirectoryDoesNotExist($this->resourcesPath($locale));
         }
     }
@@ -36,20 +33,17 @@ class RemoveTest extends InlineOnTestCase
     public function testUninstall()
     {
         foreach ($this->locales as $locale) {
-            $this->assertFileDoesNotExist($this->resourcesPath($locale . '.json'));
-            $this->assertFileDoesNotExist($this->resourcesPath($locale, 'custom.php'));
+            $this->assertFileDoesNotExist($this->resourcesPath($locale, 'validation.php'));
             $this->assertDirectoryDoesNotExist($this->resourcesPath($locale));
 
             $this->artisan('lang:add', ['locales' => $locale])->run();
 
-            $this->assertFileExists($this->resourcesPath($locale . '.json'));
-            $this->assertFileExists($this->resourcesPath($locale, 'custom.php'));
+            $this->assertFileExists($this->resourcesPath($locale, 'validation.php'));
             $this->assertDirectoryExists($this->resourcesPath($locale));
 
             $this->artisan('lang:rm', ['locales' => $locale])->run();
 
-            $this->assertFileDoesNotExist($this->resourcesPath($locale . '.json'));
-            $this->assertFileDoesNotExist($this->resourcesPath($locale, 'custom.php'));
+            $this->assertFileDoesNotExist($this->resourcesPath($locale, 'validation.php'));
             $this->assertDirectoryDoesNotExist($this->resourcesPath($locale));
         }
     }
@@ -57,14 +51,12 @@ class RemoveTest extends InlineOnTestCase
     public function testUninstalled()
     {
         foreach ($this->locales as $locale) {
-            $this->assertFileDoesNotExist($this->resourcesPath($locale . '.json'));
-            $this->assertFileDoesNotExist($this->resourcesPath($locale, 'custom.php'));
+            $this->assertFileDoesNotExist($this->resourcesPath($locale, 'validation.php'));
             $this->assertDirectoryDoesNotExist($this->resourcesPath($locale));
 
             $this->artisan('lang:rm', ['locales' => $locale])->run();
 
-            $this->assertFileDoesNotExist($this->resourcesPath($locale . '.json'));
-            $this->assertFileDoesNotExist($this->resourcesPath($locale, 'custom.php'));
+            $this->assertFileDoesNotExist($this->resourcesPath($locale, 'validation.php'));
             $this->assertDirectoryDoesNotExist($this->resourcesPath($locale));
         }
     }
@@ -74,14 +66,12 @@ class RemoveTest extends InlineOnTestCase
         $locales = Locales::protects();
 
         foreach ($locales as $locale) {
-            $this->assertFileExists($this->resourcesPath($locale . '.json'));
-            $this->assertFileExists($this->resourcesPath($locale, 'custom.php'));
+            $this->assertFileExists($this->resourcesPath($locale, 'validation.php'));
             $this->assertDirectoryExists($this->resourcesPath($locale));
 
             $this->artisan('lang:rm', ['locales' => $locale])->run();
 
-            $this->assertFileExists($this->resourcesPath($locale . '.json'));
-            $this->assertFileExists($this->resourcesPath($locale, 'custom.php'));
+            $this->assertFileExists($this->resourcesPath($locale, 'validation.php'));
             $this->assertDirectoryExists($this->resourcesPath($locale));
         }
     }
