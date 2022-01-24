@@ -1,0 +1,9 @@
+.idea/
+
+vendor/
+build/
+
+*.cache
+*.clover
+*.lock
+*.orig
