@@ -3,7 +3,7 @@
 ##### All missed: 1
 
 
-### [validation](https://github.com/Laravel-Lang/attributes/blob/master/locales/az/validation.php)
+### [validation](https://github.com/Laravel-Lang/attributes/blob/main/locales/az/validation.php)
 
 ##### Missing: 1
 

@@ -3,7 +3,7 @@
 ##### All missed: 34
 
 
-### [validation](https://github.com/Laravel-Lang/attributes/blob/master/locales/oc/validation.php)
+### [validation](https://github.com/Laravel-Lang/attributes/blob/main/locales/oc/validation.php)
 
 ##### Missing: 34
 
