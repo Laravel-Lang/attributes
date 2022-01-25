@@ -12,6 +12,7 @@ use LaravelLang\Development\Concerns\Contains;
 use LaravelLang\Development\Contracts\Filesystem;
 use LaravelLang\Development\Contracts\Processable;
 use LaravelLang\Development\Contracts\Stringable;
+use LaravelLang\Development\Facades\Arr as ArrSupport;
 use LaravelLang\Development\Services\Filesystem\Base;
 use LaravelLang\Development\Services\Filesystem\Json as JsonFilesystem;
 use LaravelLang\Development\Services\Filesystem\Markdown as MarkdownFilesystem;
@@ -45,16 +46,7 @@ abstract class Processor implements Processable
         $this->sort($source);
         $this->sort($target);
 
-        if ($this->isValidation($filename)) {
-            $attributes = $this->getFallbackValue($source, $target, 'attributes');
-
-            $source = Arr::except($source, ['attributes', 'custom']);
-            $target = Arr::except($target, ['attributes', 'custom']);
-
-            return array_merge($source, $target, compact('attributes'));
-        }
-
-        return array_merge($source, $target);
+        return ArrSupport::merge($source, $target);
     }
 
     protected function process(string $target_path, string $filename, string $locale = null): void

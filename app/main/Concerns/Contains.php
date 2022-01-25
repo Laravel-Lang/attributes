@@ -38,6 +38,6 @@ trait Contains
 
     protected function isValidation(string $filename): bool
     {
-        return false;
+        return true;
     }
 }
