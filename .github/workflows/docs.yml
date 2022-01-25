@@ -4,6 +4,9 @@ on:
     repository_dispatch:
       types:
         - generate-docs
+    release:
+        types:
+            - created
 
 jobs:
     handle-dispatch:
