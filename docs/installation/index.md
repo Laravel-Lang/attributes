@@ -8,4 +8,10 @@ All you need to do to get started is add Laravel Lang to your composer dependenc
 composer require laravel-lang/publisher laravel-lang/attributes --dev
 ```
 
-To automate the process, then use our [publisher](https://publisher.laravel-lang.com).
+By default, the [publisher](https://publisher.laravel-lang.com) automatically loads all of plugins ([local](https://publisher.laravel-lang.com/plugins/local.html) and [community](https://publisher.laravel-lang.com/plugins/community.html)).
+
+Therefore, all you need to do after installation is to run the lan command:
+
+```bash:no-line-numbers
+php artisan lang:update
+```
