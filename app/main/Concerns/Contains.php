@@ -35,9 +35,4 @@ trait Contains
     {
         return str_ends_with($filename, 'md');
     }
-
-    protected function isValidation(string $filename): bool
-    {
-        return true;
-    }
 }

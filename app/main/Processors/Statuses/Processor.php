@@ -54,11 +54,9 @@ abstract class Processor extends BaseProcessor
         $source = $this->source($filename);
         $target = $this->target($locale, $corrected);
 
-        $is_validation = $this->isValidation($filename);
-
         $this->addCount($source);
 
-        if ($diff = $this->compare($source, $target, $locale, $is_validation)) {
+        if ($diff = $this->compare($source, $target, $locale, false)) {
             $this->pushLocale($locale, $corrected, $diff);
 
             $this->addCount($diff, 'diff');
