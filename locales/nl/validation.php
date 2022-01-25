@@ -60,7 +60,7 @@ return [
         'postal_code'              => 'postcode',
         'price'                    => 'prijs',
         'province'                 => 'provincie',
-        'recaptcha_response_field' => 'recaptcha antwoord veld',
+        'recaptcha_response_field' => 'recaptcha antwoordveld',
         'remember'                 => 'onthouden',
         'restored_at'              => 'hersteld op',
         'result_text_under_image'  => 'antwoord tekst onder afbeelding',
