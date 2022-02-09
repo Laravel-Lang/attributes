@@ -49,7 +49,7 @@ abstract class Processor implements Processable
         return ArrSupport::merge($source, $target);
     }
 
-    protected function process(string $target_path, string $filename, string $locale = null): void
+    protected function process(string $target_path, string $filename, ?string $locale = null): void
     {
         $source = $this->source($filename);
         $target = $this->load($target_path);
@@ -95,7 +95,7 @@ abstract class Processor implements Processable
         return Arr::get($target, $key) ?: Arr::get($source, $key, []);
     }
 
-    protected function getTargetPath(string $path = null): string
+    protected function getTargetPath(?string $path = null): string
     {
         if ($path = $this->app->cleanPath($path)) {
             $path = '/' . $path;
@@ -104,7 +104,7 @@ abstract class Processor implements Processable
         return $this->app->path($this->target_path . $path);
     }
 
-    protected function getSourcePath(string $filename = null): string
+    protected function getSourcePath(?string $filename = null): string
     {
         return $this->app->sourcePath($filename);
     }
@@ -165,7 +165,7 @@ abstract class Processor implements Processable
         return $filesystem::make()->application($this->app);
     }
 
-    protected function store(string $path, array|string|Stringable $content, string $source_filename = null, bool $is_simple = false): void
+    protected function store(string $path, array|string|Stringable $content, ?string $source_filename = null, bool $is_simple = false): void
     {
         $stub = $this->getStubPath($source_filename);
 
