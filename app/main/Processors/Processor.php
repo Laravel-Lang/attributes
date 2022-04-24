@@ -3,9 +3,9 @@
 namespace LaravelLang\Development\Processors;
 
 use DragonCode\Support\Concerns\Makeable;
+use DragonCode\Support\Facades\Filesystem\Directory;
+use DragonCode\Support\Facades\Filesystem\File;
 use DragonCode\Support\Facades\Helpers\Arr;
-use DragonCode\Support\Facades\Helpers\Filesystem\Directory;
-use DragonCode\Support\Facades\Helpers\Filesystem\File;
 use DragonCode\Support\Tools\Stub;
 use LaravelLang\Development\Application;
 use LaravelLang\Development\Concerns\Contains;
@@ -152,11 +152,11 @@ abstract class Processor implements Processable
     protected function getFilesystemClass(string $path): string
     {
         return match (true) {
-            $this->isJson($path) => JsonFilesystem::class,
+            $this->isJson($path)     => JsonFilesystem::class,
 
             $this->isMarkdown($path) => MarkdownFilesystem::class,
 
-            default => PhpFilesystem::class,
+            default                  => PhpFilesystem::class,
         };
     }
 
