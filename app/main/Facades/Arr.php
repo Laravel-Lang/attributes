@@ -12,7 +12,7 @@ use LaravelLang\Development\Support\Arr as Support;
  */
 class Arr extends Facade
 {
-    protected static function getFacadeAccessor(): string
+    protected static function getFacadeAccessor(): mixed
     {
         return Support::class;
     }

@@ -13,7 +13,10 @@ use Symfony\Component\Finder\Finder as SymfonyFinder;
  */
 class Package extends Facade
 {
-    protected static function getFacadeAccessor(): Support
+    /**
+     * @return Support
+     */
+    protected static function getFacadeAccessor(): mixed
     {
         return new Support(self::resolveFinder(), self::resolveParser());
     }
