@@ -29,9 +29,7 @@ trait Template
             return static::$templates[$filename];
         }
 
-        $template = File::make()->loadRaw(
-            $this->templatePath($filename)
-        );
+        $template = file_get_contents($this->templatePath($filename));
 
         return static::$templates[$filename] = $trim ? trim($template) : $template;
     }

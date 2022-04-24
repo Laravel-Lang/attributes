@@ -2,7 +2,7 @@
 
 namespace LaravelLang\Development\Services\Filesystem;
 
-use DragonCode\PrettyArray\Services\File as Pretty;
+use DragonCode\Support\Facades\Filesystem\File;
 use DragonCode\Support\Facades\Helpers\Arr;
 use DragonCode\Support\Tools\Stub;
 use LaravelLang\Development\Contracts\Stringable;
@@ -11,9 +11,7 @@ class Json extends Base
 {
     public function load(string $path): array
     {
-        $content = Pretty::make()->loadRaw($path);
-
-        $items = json_decode($content, true);
+        $items = File::load($path);
 
         return $this->correctValues($items);
     }
