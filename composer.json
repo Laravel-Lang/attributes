@@ -26,12 +26,12 @@
     ],
     "require": {
         "php": "^7.3 || ^8.0",
-        "ext-json": "*",
-        "laravel-lang/publisher": "^12.1 || ^13.0"
+        "ext-json": "*"
     },
     "require-dev": {
         "dragon-code/pretty-array": "^4.0",
         "dragon-code/support": "^6.0",
+        "laravel-lang/publisher": "^12.1 || ^13.0",
         "orchestra/testbench": "^5.0 || ^6.0 || ^7.0",
         "phpunit/phpunit": "^9.5",
         "symfony/finder": "^5.0 || ^6.0",
