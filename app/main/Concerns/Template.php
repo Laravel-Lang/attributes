@@ -2,7 +2,6 @@
 
 namespace LaravelLang\Development\Concerns;
 
-use DragonCode\PrettyArray\Services\File;
 use DragonCode\Support\Facades\Helpers\Str;
 
 trait Template
