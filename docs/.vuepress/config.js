@@ -23,7 +23,7 @@ module.exports = {
         hostname,
         base: '/',
 
-        logo: 'https://${ hostname }/images/logo.svg',
+        logo: `https://${ hostname }/images/logo.svg`,
 
         repo: 'https://github.com/Laravel-Lang/attributes',
         repoLabel: 'GitHub',
