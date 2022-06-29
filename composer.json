@@ -35,6 +35,9 @@
         "phpunit/phpunit": "^9.5",
         "symfony/var-dumper": "^5.0 || ^6.0"
     },
+    "conflict": {
+        "laravel-lang/publisher": "<14.0.0"
+    },
     "minimum-stability": "stable",
     "prefer-stable": true,
     "autoload": {
