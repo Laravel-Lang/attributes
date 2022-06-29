@@ -1,5 +1,10 @@
-# {{locale}}
+---
+editLink: false
+---
 
-##### All missed: {{count}}
+# ja
 
-{{content}}
+##### All missed: 0
+
+All lines are translated 😊
+
