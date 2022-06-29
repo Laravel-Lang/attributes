@@ -1,6 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 
+const { viteBundler, defaultTheme } = require('vuepress');
+
+require('dotenv').config();
+
+const hostname = 'attributes.laravel-lang.com';
+
 module.exports = {
     lang: 'en-US',
     title: 'Laravel Lang Attributes',
@@ -11,11 +17,13 @@ module.exports = {
         ['meta', { name: 'twitter:image', content: 'https://attributes.laravel-lang.com/images/social-logo.png' }]
     ],
 
-    theme: '@vuepress/theme-default',
-    themeConfig: {
+    bundler: viteBundler(),
+
+    theme: defaultTheme({
+        hostname,
         base: '/',
 
-        logo: '/images/logo.svg',
+        logo: 'https://${ hostname }/images/logo.svg',
 
         repo: 'https://github.com/Laravel-Lang/attributes',
         repoLabel: 'GitHub',
@@ -23,6 +31,7 @@ module.exports = {
         docsBranch: 'main',
         docsDir: 'docs',
 
+        contributors: false,
         editLink: true,
 
         navbar: [
@@ -69,7 +78,7 @@ module.exports = {
                 ]
             }
         ]
-    },
+    }),
 
     plugins: [
         [
@@ -108,7 +117,7 @@ function getChildren(folder, sort = 'asc') {
 }
 
 function resolveNumeric(value) {
-    const sub = value.substr(0, value.indexOf('.'));
+    const sub = value.substring(0, value.indexOf('.'));
 
     const num = Number(sub);
 
