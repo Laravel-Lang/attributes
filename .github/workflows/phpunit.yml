@@ -1,8 +1,11 @@
 name: phpunit
-on: [ push, pull_request ]
+
+on: [ push ]
+
+permissions: read-all
 
 jobs:
-    build:
+    laravel:
         runs-on: ubuntu-latest
 
         name: PHP Unit
@@ -16,9 +19,11 @@ jobs:
                 with:
                     extensions: curl, mbstring, zip, pcntl, pdo, pdo_sqlite, iconv, json
                     coverage: none
+                env:
+                    COMPOSER_TOKEN: ${{ secrets.COMPOSER_TOKEN }}
 
             -   name: Install dependencies
                 run: composer update --prefer-stable --prefer-dist --no-progress --no-interaction
 
             -   name: Execute tests
-                run: sudo vendor/bin/phpunit
+                run: sudo vendor/bin/phpunit --colors=always

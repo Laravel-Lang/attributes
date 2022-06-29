@@ -4,14 +4,11 @@ declare(strict_types=1);
 
 namespace LaravelLang\Attributes\Plugins;
 
-use LaravelLang\Publisher\Plugins\BasePlugin;
+use LaravelLang\Publisher\Plugins\Plugin;
 
-class Lumen extends BasePlugin
+class Lumen extends Plugin
 {
-    public function vendor(): ?string
-    {
-        return 'laravel/lumen-framework';
-    }
+    protected ?string $vendor = 'laravel/lumen-framework';
 
     public function files(): array
     {
