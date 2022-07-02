@@ -2,4 +2,4 @@
 
 | Laravel version | Install command                                 |
 |-----------------|-------------------------------------------------|
-| Laravel 7-9     | `composer require laravel-lang/attributes:^1.0` |
+| Laravel 6-9     | `composer require laravel-lang/attributes:^2.0` |
