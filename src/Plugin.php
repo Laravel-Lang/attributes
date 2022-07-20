@@ -10,6 +10,8 @@ use LaravelLang\Publisher\Plugins\Provider;
 
 class Plugin extends Provider
 {
+    protected ?string $package_name = 'laravel-lang/attributes';
+
     protected string $base_path = __DIR__ . '/../';
 
     protected array $plugins = [
