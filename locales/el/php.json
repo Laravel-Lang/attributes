@@ -46,7 +46,7 @@
     "attributes.postal_code": "postal code",
     "attributes.price": "price",
     "attributes.province": "province",
-    "attributes.recaptcha_response_field": "η επαλήθευση recaptcha ",
+    "attributes.recaptcha_response_field": "η επαλήθευση recaptcha",
     "attributes.remember": "remember",
     "attributes.restored_at": "restored at",
     "attributes.result_text_under_image": "result text under image",
