@@ -9,7 +9,7 @@ const hostname = 'attributes.laravel-lang.com';
 
 module.exports = {
     lang: 'en-US',
-    title: 'Laravel Lang Attributes',
+    title: 'Laravel Lang: Attributes',
     description: 'List of 78 languages for form field names',
 
     head: [
@@ -72,9 +72,9 @@ module.exports = {
                 text: 'References',
                 collapsible: true,
                 children: [
-                    { text: 'Referents', link: '/referents.md' },
-                    { text: 'Code of Conduct', link: '/code-of-conduct.md' },
-                    { text: 'Contributing', link: '/contributing.md' }
+                    { text: 'Referents', link: 'https://laravel-lang.com/referents.html' },
+                    { text: 'Code of Conduct', link: 'https://laravel-lang.com/code-of-conduct.html' },
+                    { text: 'Contributing', link: 'https://laravel-lang.com/contributing.html' }
                 ]
             }
         ]
