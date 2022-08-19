@@ -37,6 +37,6 @@ See the [documentation](https://attributes.laravel-lang.com) for detailed instal
 
 [link_build]:           https://github.com/laravel-lang/attributes/actions
 
-[link_license]:         LICENSE.md
+[link_license]:         LICENSE
 
 [link_packagist]:       https://packagist.org/packages/laravel-lang/attributes
