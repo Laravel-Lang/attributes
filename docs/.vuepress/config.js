@@ -1,9 +1,10 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs'
+import path from 'path'
+import dotenv from 'dotenv'
 
-const { viteBundler, defaultTheme } = require('vuepress');
+import { defaultTheme, viteBundler } from 'vuepress'
 
-require('dotenv').config();
+dotenv.config()
 
 const hostname = 'attributes.laravel-lang.com';
 
@@ -80,16 +81,7 @@ module.exports = {
         ]
     }),
 
-    plugins: [
-        [
-            'seo',
-            {
-                description: $page => $page.frontmatter.description,
-                type: _ => 'website',
-                image: (_, $site) => $site.domain + '/images/social-logo.png'
-            }
-        ]
-    ]
+    plugins: []
 };
 
 function getChildren(folder, sort = 'asc') {
