@@ -40,7 +40,7 @@
     "attributes.national_code": "national code",
     "attributes.number": "number",
     "attributes.password": "ಪಾಸ್ವರ್ಡ್",
-    "attributes.password_confirmation": " ಪಾಸ್ವರ್ಡ್ ದೃಢೀಕರಿಸಿ",
+    "attributes.password_confirmation": "ಪಾಸ್ವರ್ಡ್ ದೃಢೀಕರಿಸಿ",
     "attributes.phone": "ಫೋನ್",
     "attributes.photo": "photo",
     "attributes.postal_code": "postal code",
