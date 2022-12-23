@@ -25,7 +25,7 @@ See the [documentation](https://attributes.laravel-lang.com) for detailed instal
 - [All Contributors](https://github.com/Laravel-Lang/attributes/graphs/contributors)
 
 
-[badge_build]:          https://img.shields.io/github/workflow/status/laravel-lang/attributes/phpunit?style=flat-square
+[badge_build]:          https://img.shields.io/github/actions/workflow/status/laravel-lang/attributes/phpunit.yml?style=flat-square
 
 [badge_downloads]:      https://img.shields.io/packagist/dt/laravel-lang/attributes.svg?style=flat-square
 
