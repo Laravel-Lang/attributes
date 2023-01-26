@@ -4,12 +4,12 @@ editLink: false
 
 # nl
 
-##### All missed: 3
+##### All missed: 1
 
 
 ### php
 
-##### Missing: 3
+##### Missing: 1
 
 <table width="100%">
 <tr><th width="50%">
@@ -23,29 +23,11 @@ Value
 </th></tr>
 <tr><td width="50%">
 
-attributes.body
-
-</td><td width="50%">
-
-body
-
-</td></tr>
-<tr><td width="50%">
-
 attributes.filter
 
 </td><td width="50%">
 
 filter
-
-</td></tr>
-<tr><td width="50%">
-
-attributes.student
-
-</td><td width="50%">
-
-student
 
 </td></tr>
 </table>

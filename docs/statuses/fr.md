@@ -4,12 +4,12 @@ editLink: false
 
 # fr
 
-##### All missed: 6
+##### All missed: 4
 
 
 ### php
 
-##### Missing: 6
+##### Missing: 4
 
 <table width="100%">
 <tr><th width="50%">
@@ -21,24 +21,6 @@ Key
 Value
 
 </th></tr>
-<tr><td width="50%">
-
-attributes.date
-
-</td><td width="50%">
-
-date
-
-</td></tr>
-<tr><td width="50%">
-
-attributes.description
-
-</td><td width="50%">
-
-description
-
-</td></tr>
 <tr><td width="50%">
 
 attributes.image
