@@ -4,12 +4,12 @@ editLink: false
 
 # sq
 
-##### All missed: 2
+##### All missed: 1
 
 
 ### php
 
-##### Missing: 2
+##### Missing: 1
 
 <table width="100%">
 <tr><th width="50%">
@@ -28,15 +28,6 @@ attributes.email
 </td><td width="50%">
 
 email
-
-</td></tr>
-<tr><td width="50%">
-
-attributes.student
-
-</td><td width="50%">
-
-student
 
 </td></tr>
 </table>
