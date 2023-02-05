@@ -4,12 +4,12 @@ editLink: false
 
 # tl
 
-##### All missed: 8
+##### All missed: 7
 
 
 ### php
 
-##### Missing: 8
+##### Missing: 7
 
 <table width="100%">
 <tr><th width="50%">
@@ -64,15 +64,6 @@ attributes.postal_code
 </td><td width="50%">
 
 postal code
-
-</td></tr>
-<tr><td width="50%">
-
-attributes.recaptcha_response_field
-
-</td><td width="50%">
-
-recaptcha response field
 
 </td></tr>
 <tr><td width="50%">
