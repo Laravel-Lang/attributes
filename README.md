@@ -1,6 +1,6 @@
 # Laravel Lang: Attributes
 
-![laravel lang attributes](https://preview.dragon-code.pro/laravel-lang/attributes.svg?brand=laravel&invert=1)
+![laravel lang attributes](https://preview.dragon-code.pro/laravel-lang/attributes.svg?brand=laravel&mode=dark)
 
 [![Stable Version][badge_stable]][link_packagist]
 [![Unstable Version][badge_unstable]][link_packagist]
