@@ -52,7 +52,8 @@
             "ergebnis/composer-normalize": true,
             "dragon-code/codestyler": true,
             "friendsofphp/php-cs-fixer": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "symfony/thanks": true
         },
         "preferred-install": "dist",
         "sort-packages": true
