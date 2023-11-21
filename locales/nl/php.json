@@ -61,7 +61,7 @@
     "attributes.subject": "onderwerp",
     "attributes.teacher": "docent",
     "attributes.terms": "voorwaarden",
-    "attributes.test_description": "test beschrijving",
+    "attributes.test_description": "test omschrijving",
     "attributes.test_locale": "test landinstelling",
     "attributes.test_name": "test naam",
     "attributes.text": "tekst",
