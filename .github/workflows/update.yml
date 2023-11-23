@@ -86,6 +86,6 @@ jobs:
                     )
                 with:
                     token: ${{ secrets.COMPOSER_TOKEN }}
-                    repo: Laravel-Lang/common
+                    repo: Laravel-Lang/docs
                     type: docs
 
