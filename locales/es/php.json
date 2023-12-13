@@ -48,7 +48,11 @@
     "attributes.phone": "teléfono",
     "attributes.photo": "foto",
     "attributes.postal_code": "código postal",
+
     "attributes.preview": "vista preliminar",
+
+
+
     "attributes.price": "precio",
     "attributes.product_id": "ID del producto",
     "attributes.product_uid": "UID del producto",
