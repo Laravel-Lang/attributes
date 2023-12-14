@@ -4,12 +4,12 @@ editLink: false
 
 # fil
 
-##### All missed: 8
+##### All missed: 9
 
 
 ### php
 
-##### Missing: 8
+##### Missing: 9
 
 <table width="100%">
 <tr><th width="50%">
@@ -28,6 +28,15 @@ attributes.address
 </td><td width="50%">
 
 address
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.customer
+
+</td><td width="50%">
+
+customer
 
 </td></tr>
 <tr><td width="50%">
@@ -68,11 +77,11 @@ postal code
 </td></tr>
 <tr><td width="50%">
 
-attributes.recaptcha_response_field
+attributes.promo_code
 
 </td><td width="50%">
 
-recaptcha response field
+promo code
 
 </td></tr>
 <tr><td width="50%">

@@ -4,12 +4,12 @@ editLink: false
 
 # sc
 
-##### All missed: 71
+##### All missed: 83
 
 
 ### php
 
-##### Missing: 71
+##### Missing: 83
 
 <table width="100%">
 <tr><th width="50%">
@@ -131,11 +131,29 @@ creator
 </td></tr>
 <tr><td width="50%">
 
+attributes.currency
+
+</td><td width="50%">
+
+currency
+
+</td></tr>
+<tr><td width="50%">
+
 attributes.current_password
 
 </td><td width="50%">
 
 current password
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.customer
+
+</td><td width="50%">
+
+customer
 
 </td></tr>
 <tr><td width="50%">
@@ -271,6 +289,24 @@ attributes.image
 </td><td width="50%">
 
 image
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.is_subscribed
+
+</td><td width="50%">
+
+is subscribed
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.items
+
+</td><td width="50%">
+
+items
 
 </td></tr>
 <tr><td width="50%">
@@ -428,6 +464,15 @@ postal code
 </td></tr>
 <tr><td width="50%">
 
+attributes.preview
+
+</td><td width="50%">
+
+preview
+
+</td></tr>
+<tr><td width="50%">
+
 attributes.price
 
 </td><td width="50%">
@@ -437,11 +482,56 @@ price
 </td></tr>
 <tr><td width="50%">
 
+attributes.product_id
+
+</td><td width="50%">
+
+product ID
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.product_uid
+
+</td><td width="50%">
+
+product UID
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.product_uuid
+
+</td><td width="50%">
+
+product UUID
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.promo_code
+
+</td><td width="50%">
+
+promo code
+
+</td></tr>
+<tr><td width="50%">
+
 attributes.province
 
 </td><td width="50%">
 
 province
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.quantity
+
+</td><td width="50%">
+
+quantity
 
 </td></tr>
 <tr><td width="50%">
@@ -505,6 +595,15 @@ attributes.sex
 </td><td width="50%">
 
 sex
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.shipment
+
+</td><td width="50%">
+
+shipment
 
 </td></tr>
 <tr><td width="50%">
@@ -640,6 +739,15 @@ attributes.updated_at
 </td><td width="50%">
 
 updated at
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.user
+
+</td><td width="50%">
+
+user
 
 </td></tr>
 <tr><td width="50%">
