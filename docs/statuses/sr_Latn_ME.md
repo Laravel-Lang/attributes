@@ -4,12 +4,12 @@ editLink: false
 
 # sr_Latn_ME
 
-##### All missed: 16
+##### All missed: 17
 
 
 ### php
 
-##### Missing: 16
+##### Missing: 17
 
 <table width="100%">
 <tr><th width="50%">
@@ -21,6 +21,15 @@ Key
 Value
 
 </th></tr>
+<tr><td width="50%">
+
+attributes.affiliate_url
+
+</td><td width="50%">
+
+affiliate URL
+
+</td></tr>
 <tr><td width="50%">
 
 attributes.currency

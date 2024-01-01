@@ -4,12 +4,12 @@ editLink: false
 
 # uz_Latn
 
-##### All missed: 54
+##### All missed: 55
 
 
 ### php
 
-##### Missing: 54
+##### Missing: 55
 
 <table width="100%">
 <tr><th width="50%">
@@ -21,6 +21,15 @@ Key
 Value
 
 </th></tr>
+<tr><td width="50%">
+
+attributes.affiliate_url
+
+</td><td width="50%">
+
+affiliate URL
+
+</td></tr>
 <tr><td width="50%">
 
 attributes.amount

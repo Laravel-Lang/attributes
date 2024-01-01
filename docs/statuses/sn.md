@@ -4,12 +4,12 @@ editLink: false
 
 # sn
 
-##### All missed: 22
+##### All missed: 23
 
 
 ### php
 
-##### Missing: 22
+##### Missing: 23
 
 <table width="100%">
 <tr><th width="50%">
@@ -21,6 +21,15 @@ Key
 Value
 
 </th></tr>
+<tr><td width="50%">
+
+attributes.affiliate_url
+
+</td><td width="50%">
+
+affiliate URL
+
+</td></tr>
 <tr><td width="50%">
 
 attributes.age
