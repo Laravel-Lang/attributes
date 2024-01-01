@@ -1,5 +1,6 @@
 {
     "attributes.address": "adresse",
+    "attributes.affiliate_url": "affiliate URL",
     "attributes.age": "alder",
     "attributes.amount": "beløb",
     "attributes.area": "areal",

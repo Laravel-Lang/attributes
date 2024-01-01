@@ -1,5 +1,6 @@
 {
     "attributes.address": "aadress",
+    "attributes.affiliate_url": "affiliate URL",
     "attributes.age": "vanus",
     "attributes.amount": "summa",
     "attributes.area": "ala",

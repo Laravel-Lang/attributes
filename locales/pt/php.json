@@ -1,5 +1,6 @@
 {
     "attributes.address": "morada",
+    "attributes.affiliate_url": "affiliate URL",
     "attributes.age": "idade",
     "attributes.amount": "quantidade",
     "attributes.area": "área",

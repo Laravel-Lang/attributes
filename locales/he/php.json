@@ -1,5 +1,6 @@
 {
     "attributes.address": "כתובת",
+    "attributes.affiliate_url": "affiliate URL",
     "attributes.age": "גיל",
     "attributes.amount": "כמות",
     "attributes.area": "אֵזוֹר",

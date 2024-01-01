@@ -1,5 +1,6 @@
 {
     "attributes.address": "osoite",
+    "attributes.affiliate_url": "affiliate URL",
     "attributes.age": "ikä",
     "attributes.amount": "määrä",
     "attributes.area": "alueella",

@@ -1,5 +1,6 @@
 {
     "attributes.address": "adresi",
+    "attributes.affiliate_url": "affiliate URL",
     "attributes.age": "mbula",
     "attributes.amount": "motango",
     "attributes.area": "esika",

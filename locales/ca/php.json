@@ -1,5 +1,6 @@
 {
     "attributes.address": "adreça",
+    "attributes.affiliate_url": "affiliate URL",
     "attributes.age": "edat",
     "attributes.amount": "quantitat",
     "attributes.area": "zona",

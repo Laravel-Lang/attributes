@@ -1,5 +1,6 @@
 {
     "attributes.address": "ที่อยู่",
+    "attributes.affiliate_url": "affiliate URL",
     "attributes.age": "อายุ",
     "attributes.amount": "จำนวน",
     "attributes.area": "พื้นที่",

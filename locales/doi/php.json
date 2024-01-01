@@ -1,5 +1,6 @@
 {
     "attributes.address": "पता",
+    "attributes.affiliate_url": "affiliate URL",
     "attributes.age": "बरेस",
     "attributes.amount": "पैहा",
     "attributes.area": "इलाका",

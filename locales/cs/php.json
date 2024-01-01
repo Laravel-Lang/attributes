@@ -1,5 +1,6 @@
 {
     "attributes.address": "adresa",
+    "attributes.affiliate_url": "affiliate URL",
     "attributes.age": "stáří",
     "attributes.amount": "množství",
     "attributes.area": "plocha",

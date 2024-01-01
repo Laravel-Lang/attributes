@@ -1,5 +1,6 @@
 {
     "attributes.address": "地址",
+    "attributes.affiliate_url": "affiliate URL",
     "attributes.age": "年龄",
     "attributes.amount": "数额",
     "attributes.area": "区域",

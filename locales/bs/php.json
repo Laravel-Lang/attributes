@@ -1,5 +1,6 @@
 {
     "attributes.address": "adresa",
+    "attributes.affiliate_url": "affiliate URL",
     "attributes.age": "dob",
     "attributes.amount": "iznos",
     "attributes.area": "površina",

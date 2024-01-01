@@ -1,5 +1,6 @@
 {
     "attributes.address": "വിലാസം",
+    "attributes.affiliate_url": "affiliate URL",
     "attributes.age": "പ്രായം",
     "attributes.amount": "തുക",
     "attributes.area": "പ്രദേശം",

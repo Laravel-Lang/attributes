@@ -1,5 +1,6 @@
 {
     "attributes.address": "adres",
+    "attributes.affiliate_url": "affiliate URL",
     "attributes.age": "yaş",
     "attributes.amount": "tutar",
     "attributes.area": "alan",

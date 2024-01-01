@@ -1,5 +1,6 @@
 {
     "attributes.address": "địa chỉ",
+    "attributes.affiliate_url": "affiliate URL",
     "attributes.age": "tuổi",
     "attributes.amount": "số lượng",
     "attributes.area": "khu vực",

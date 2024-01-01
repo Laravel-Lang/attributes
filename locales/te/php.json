@@ -1,5 +1,6 @@
 {
     "attributes.address": "చిరునామా",
+    "attributes.affiliate_url": "affiliate URL",
     "attributes.age": "వయస్సు",
     "attributes.amount": "మొత్తం",
     "attributes.area": "ప్రాంతం",
