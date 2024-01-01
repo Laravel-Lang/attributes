@@ -1,5 +1,6 @@
 {
     "attributes.address": "العنوان",
+    "attributes.affiliate_url": "رابط الأفلييت",
     "attributes.age": "العمر",
     "attributes.amount": "الكمية",
     "attributes.area": "المنطقة",
