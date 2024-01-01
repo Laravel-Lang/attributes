@@ -16,6 +16,7 @@ declare(strict_types=1);
 return [
     'attributes' => [
         'address'                  => 'address',
+        'affiliate_url'            => 'affiliate URL',
         'age'                      => 'age',
         'amount'                   => 'amount',
         'area'                     => 'area',
