@@ -1,6 +1,6 @@
 {
     "attributes.address": "adres",
-    "attributes.affiliate_url": "affiliate URL",
+    "attributes.affiliate_url": "bağlı kuruluş URL'si",
     "attributes.age": "yaş",
     "attributes.amount": "tutar",
     "attributes.area": "alan",
