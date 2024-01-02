@@ -4,12 +4,12 @@ editLink: false
 
 # fil
 
-##### All missed: 10
+##### All missed: 9
 
 
 ### php
 
-##### Missing: 10
+##### Missing: 9
 
 <table width="100%">
 <tr><th width="50%">
@@ -28,15 +28,6 @@ attributes.address
 </td><td width="50%">
 
 address
-
-</td></tr>
-<tr><td width="50%">
-
-attributes.affiliate_url
-
-</td><td width="50%">
-
-affiliate URL
 
 </td></tr>
 <tr><td width="50%">

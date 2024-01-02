@@ -4,12 +4,12 @@ editLink: false
 
 # fr
 
-##### All missed: 5
+##### All missed: 4
 
 
 ### php
 
-##### Missing: 5
+##### Missing: 4
 
 <table width="100%">
 <tr><th width="50%">
@@ -21,15 +21,6 @@ Key
 Value
 
 </th></tr>
-<tr><td width="50%">
-
-attributes.affiliate_url
-
-</td><td width="50%">
-
-affiliate URL
-
-</td></tr>
 <tr><td width="50%">
 
 attributes.image
