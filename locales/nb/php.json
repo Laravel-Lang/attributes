@@ -1,6 +1,6 @@
 {
     "attributes.address": "adresse",
-    "attributes.affiliate_url": "affiliate URL",
+    "attributes.affiliate_url": "tilknyttet URL",
     "attributes.age": "alder",
     "attributes.amount": "beløp",
     "attributes.area": "område",
