@@ -334,7 +334,7 @@ editLink: false
 
 </td><td width="12%">
 
-[pa&nbsp;❗](statuses/pa.md)
+[pa&nbsp;✔](statuses/pa.md)
 
 </td></tr>
 <tr><td width="12%">
