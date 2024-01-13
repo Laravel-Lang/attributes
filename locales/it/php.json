@@ -44,7 +44,7 @@
     "attributes.name": "nome",
     "attributes.national_code": "codice nazionale",
     "attributes.number": "numero",
-    "attributes.password": "parola d'ordine",
+    "attributes.password": "password",
     "attributes.password_confirmation": "conferma password",
     "attributes.phone": "telefono",
     "attributes.photo": "foto",
