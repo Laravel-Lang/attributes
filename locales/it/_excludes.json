@@ -1,8 +1,3 @@
 [
-    "password",
-    "created_at",
-    "deleted_at",
-    "restored_at",
-    "short_text",
-    "updated_at"
+    "password"
 ]
