@@ -1,6 +1,6 @@
 {
     "attributes.address": "cím",
-    "attributes.affiliate_url": "affiliate URL",
+    "attributes.affiliate_url": "társult URL",
     "attributes.age": "kor",
     "attributes.amount": "összeg",
     "attributes.area": "terület",
