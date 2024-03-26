@@ -1,6 +1,12 @@
-name: phpunit
+name: Tests
 
-on: [ push, pull_request ]
+on:
+    push:
+        branches-ignore:
+            - 'projects/**'
+    pull_request:
+        branches-ignore:
+            - 'projects/**'
 
 permissions: read-all
 
@@ -24,7 +30,7 @@ jobs:
                 uses: shivammathur/setup-php@v2
                 with:
                     php-version: ${{ matrix.php }}
-                    extensions: curl, mbstring, zip, pcntl, pdo, pdo_sqlite, iconv, json
+                    extensions: curl, mbstring, zip, pcntl, pdo, pdo_sqlite, iconv
                     coverage: xdebug
                 env:
                     COMPOSER_TOKEN: ${{ secrets.COMPOSER_TOKEN }}
