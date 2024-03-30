@@ -239,6 +239,15 @@ finished at
 </td></tr>
 <tr><td width="50%">
 
+attributes.grand_prize
+
+</td><td width="50%">
+
+grand prize
+
+</td></tr>
+<tr><td width="50%">
+
 attributes.group
 
 </td><td width="50%">
@@ -469,15 +478,6 @@ attributes.price
 </td><td width="50%">
 
 price
-
-</td></tr>
-<tr><td width="50%">
-
-attributes.prize
-
-</td><td width="50%">
-
-prize
 
 </td></tr>
 <tr><td width="50%">
