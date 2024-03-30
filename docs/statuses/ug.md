@@ -4,12 +4,12 @@ editLink: false
 
 # ug
 
-##### All missed: 10
+##### All missed: 11
 
 
 ### php
 
-##### Missing: 10
+##### Missing: 11
 
 <table width="100%">
 <tr><th width="50%">
@@ -46,6 +46,15 @@ attributes.cover
 </td><td width="50%">
 
 cover
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.grand_prize
+
+</td><td width="50%">
+
+grand prize
 
 </td></tr>
 <tr><td width="50%">

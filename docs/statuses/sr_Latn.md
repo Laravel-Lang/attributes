@@ -149,6 +149,15 @@ finished at
 </td></tr>
 <tr><td width="50%">
 
+attributes.grand_prize
+
+</td><td width="50%">
+
+grand prize
+
+</td></tr>
+<tr><td width="50%">
+
 attributes.image_desktop
 
 </td><td width="50%">
@@ -280,15 +289,6 @@ attributes.preview
 </td><td width="50%">
 
 preview
-
-</td></tr>
-<tr><td width="50%">
-
-attributes.prize
-
-</td><td width="50%">
-
-prize
 
 </td></tr>
 <tr><td width="50%">
