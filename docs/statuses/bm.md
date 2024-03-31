@@ -4,12 +4,12 @@ editLink: false
 
 # bm
 
-##### All missed: 4
+##### All missed: 3
 
 
 ### php
 
-##### Missing: 4
+##### Missing: 3
 
 <table width="100%">
 <tr><th width="50%">
@@ -28,15 +28,6 @@ attributes.deleted_at
 </td><td width="50%">
 
 deleted at
-
-</td></tr>
-<tr><td width="50%">
-
-attributes.grand_prize
-
-</td><td width="50%">
-
-grand prize
 
 </td></tr>
 <tr><td width="50%">
