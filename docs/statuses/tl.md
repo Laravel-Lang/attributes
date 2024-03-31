@@ -4,12 +4,12 @@ editLink: false
 
 # tl
 
-##### All missed: 14
+##### All missed: 13
 
 
 ### php
 
-##### Missing: 14
+##### Missing: 13
 
 <table width="100%">
 <tr><th width="50%">
@@ -55,15 +55,6 @@ attributes.email
 </td><td width="50%">
 
 email
-
-</td></tr>
-<tr><td width="50%">
-
-attributes.grand_prize
-
-</td><td width="50%">
-
-grand prize
 
 </td></tr>
 <tr><td width="50%">
