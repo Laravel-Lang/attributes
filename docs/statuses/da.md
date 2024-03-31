@@ -4,12 +4,12 @@ editLink: false
 
 # da
 
-##### All missed: 7
+##### All missed: 6
 
 
 ### php
 
-##### Missing: 7
+##### Missing: 6
 
 <table width="100%">
 <tr><th width="50%">
@@ -37,15 +37,6 @@ attributes.filter
 </td><td width="50%">
 
 filter
-
-</td></tr>
-<tr><td width="50%">
-
-attributes.grand_prize
-
-</td><td width="50%">
-
-grand prize
 
 </td></tr>
 <tr><td width="50%">
