@@ -4,12 +4,12 @@ editLink: false
 
 # ku
 
-##### All missed: 9
+##### All missed: 8
 
 
 ### php
 
-##### Missing: 9
+##### Missing: 8
 
 <table width="100%">
 <tr><th width="50%">
@@ -46,15 +46,6 @@ attributes.email
 </td><td width="50%">
 
 email
-
-</td></tr>
-<tr><td width="50%">
-
-attributes.grand_prize
-
-</td><td width="50%">
-
-grand prize
 
 </td></tr>
 <tr><td width="50%">
