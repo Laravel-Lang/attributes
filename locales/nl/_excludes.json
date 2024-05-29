@@ -1,5 +1,8 @@
 [
     "concept",
     "filter",
+    "login",
+    "slug",
+    "status",
     "type"
 ]
