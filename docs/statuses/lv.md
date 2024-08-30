@@ -4,12 +4,12 @@ editLink: false
 
 # lv
 
-##### All missed: 1
+##### All missed: 2
 
 
 ### php
 
-##### Missing: 1
+##### Missing: 2
 
 <table width="100%">
 <tr><th width="50%">
@@ -21,6 +21,15 @@ Key
 Value
 
 </th></tr>
+<tr><td width="50%">
+
+attributes.portfolio
+
+</td><td width="50%">
+
+portfolio
+
+</td></tr>
 <tr><td width="50%">
 
 attributes.province

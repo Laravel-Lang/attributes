@@ -4,12 +4,12 @@ editLink: false
 
 # tl
 
-##### All missed: 9
+##### All missed: 13
 
 
 ### php
 
-##### Missing: 9
+##### Missing: 13
 
 <table width="100%">
 <tr><th width="50%">
@@ -28,6 +28,15 @@ attributes.address
 </td><td width="50%">
 
 address
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.compilation
+
+</td><td width="50%">
+
+compilation
 
 </td></tr>
 <tr><td width="50%">
@@ -68,6 +77,15 @@ password
 </td></tr>
 <tr><td width="50%">
 
+attributes.portfolio
+
+</td><td width="50%">
+
+portfolio
+
+</td></tr>
+<tr><td width="50%">
+
 attributes.postal_code
 
 </td><td width="50%">
@@ -82,6 +100,24 @@ attributes.promo_code
 </td><td width="50%">
 
 promo code
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.referee
+
+</td><td width="50%">
+
+referee
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.tag
+
+</td><td width="50%">
+
+tag
 
 </td></tr>
 <tr><td width="50%">

@@ -4,12 +4,12 @@ editLink: false
 
 # sk
 
-##### All missed: 2
+##### All missed: 4
 
 
 ### php
 
-##### Missing: 2
+##### Missing: 4
 
 <table width="100%">
 <tr><th width="50%">
@@ -23,11 +23,29 @@ Value
 </th></tr>
 <tr><td width="50%">
 
+attributes.affiliate_url
+
+</td><td width="50%">
+
+affiliate URL
+
+</td></tr>
+<tr><td width="50%">
+
 attributes.filter
 
 </td><td width="50%">
 
 filter
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.tag
+
+</td><td width="50%">
+
+tag
 
 </td></tr>
 <tr><td width="50%">
