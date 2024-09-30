@@ -4,12 +4,12 @@ editLink: false
 
 # fr
 
-##### All missed: 9
+##### All missed: 12
 
 
 ### php
 
-##### Missing: 9
+##### Missing: 12
 
 <table width="100%">
 <tr><th width="50%">
@@ -50,11 +50,20 @@ conditions
 </td></tr>
 <tr><td width="50%">
 
-attributes.grand_prize
+attributes.date
 
 </td><td width="50%">
 
-grand prize
+date
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.description
+
+</td><td width="50%">
+
+description
 
 </td></tr>
 <tr><td width="50%">
@@ -100,6 +109,24 @@ attributes.photo
 </td><td width="50%">
 
 photo
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.slug
+
+</td><td width="50%">
+
+slug
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.type
+
+</td><td width="50%">
+
+type
 
 </td></tr>
 </table>
