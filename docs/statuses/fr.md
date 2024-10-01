@@ -4,12 +4,12 @@ editLink: false
 
 # fr
 
-##### All missed: 12
+##### All missed: 17
 
 
 ### php
 
-##### Missing: 12
+##### Missing: 17
 
 <table width="100%">
 <tr><th width="50%">
@@ -21,6 +21,24 @@ Key
 Value
 
 </th></tr>
+<tr><td width="50%">
+
+attributes.audience_winner
+
+</td><td width="50%">
+
+audience winner
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.company
+
+</td><td width="50%">
+
+company
+
+</td></tr>
 <tr><td width="50%">
 
 attributes.compilation
@@ -46,6 +64,15 @@ attributes.conditions
 </td><td width="50%">
 
 conditions
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.contest
+
+</td><td width="50%">
+
+contest
 
 </td></tr>
 <tr><td width="50%">
@@ -127,6 +154,24 @@ attributes.type
 </td><td width="50%">
 
 type
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.winner
+
+</td><td width="50%">
+
+winner
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.work
+
+</td><td width="50%">
+
+work
 
 </td></tr>
 </table>
