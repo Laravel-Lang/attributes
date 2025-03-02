@@ -4,12 +4,12 @@ editLink: false
 
 # pl
 
-##### All missed: 7
+##### All missed: 3
 
 
 ### php
 
-##### Missing: 7
+##### Missing: 3
 
 <table width="100%">
 <tr><th width="50%">
@@ -23,38 +23,11 @@ Value
 </th></tr>
 <tr><td width="50%">
 
-attributes.audience_winner
+attributes.portfolio
 
 </td><td width="50%">
 
-audience winner
-
-</td></tr>
-<tr><td width="50%">
-
-attributes.company
-
-</td><td width="50%">
-
-company
-
-</td></tr>
-<tr><td width="50%">
-
-attributes.contest
-
-</td><td width="50%">
-
-contest
-
-</td></tr>
-<tr><td width="50%">
-
-attributes.grand_prize
-
-</td><td width="50%">
-
-grand prize
+portfolio
 
 </td></tr>
 <tr><td width="50%">
@@ -68,20 +41,11 @@ status
 </td></tr>
 <tr><td width="50%">
 
-attributes.winner
+attributes.tag
 
 </td><td width="50%">
 
-winner
-
-</td></tr>
-<tr><td width="50%">
-
-attributes.work
-
-</td><td width="50%">
-
-work
+tag
 
 </td></tr>
 </table>
