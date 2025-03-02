@@ -4,12 +4,12 @@ editLink: false
 
 # mt
 
-##### All missed: 8
+##### All missed: 13
 
 
 ### php
 
-##### Missing: 8
+##### Missing: 13
 
 <table width="100%">
 <tr><th width="50%">
@@ -21,6 +21,33 @@ Key
 Value
 
 </th></tr>
+<tr><td width="50%">
+
+attributes.audience_winner
+
+</td><td width="50%">
+
+audience winner
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.company
+
+</td><td width="50%">
+
+company
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.contest
+
+</td><td width="50%">
+
+contest
+
+</td></tr>
 <tr><td width="50%">
 
 attributes.email
@@ -91,6 +118,24 @@ attributes.username
 </td><td width="50%">
 
 username
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.winner
+
+</td><td width="50%">
+
+winner
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.work
+
+</td><td width="50%">
+
+work
 
 </td></tr>
 </table>

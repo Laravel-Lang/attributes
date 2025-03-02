@@ -4,12 +4,12 @@ editLink: false
 
 # sr_Latn
 
-##### All missed: 53
+##### All missed: 58
 
 
 ### php
 
-##### Missing: 53
+##### Missing: 58
 
 <table width="100%">
 <tr><th width="50%">
@@ -50,6 +50,24 @@ audience prize
 </td></tr>
 <tr><td width="50%">
 
+attributes.audience_winner
+
+</td><td width="50%">
+
+audience winner
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.company
+
+</td><td width="50%">
+
+company
+
+</td></tr>
+<tr><td width="50%">
+
 attributes.compilation
 
 </td><td width="50%">
@@ -73,6 +91,15 @@ attributes.conditions
 </td><td width="50%">
 
 conditions
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.contest
+
+</td><td width="50%">
+
+contest
 
 </td></tr>
 <tr><td width="50%">
@@ -496,6 +523,24 @@ attributes.value
 </td><td width="50%">
 
 value
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.winner
+
+</td><td width="50%">
+
+winner
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.work
+
+</td><td width="50%">
+
+work
 
 </td></tr>
 </table>
