@@ -6,7 +6,7 @@
     "attributes.announcement": "annonce",
     "attributes.area": "zone",
     "attributes.audience_prize": "prix du public",
-    "attributes.audience_winner": "gagant du public",
+    "attributes.audience_winner": "gagnant du public",
     "attributes.available": "disponible",
     "attributes.birthday": "anniversaire",
     "attributes.body": "corps",
@@ -121,7 +121,7 @@
     "attributes.user": "utilisateur",
     "attributes.username": "nom d'utilisateur",
     "attributes.value": "valeur",
-    "attributes.winner": "gagant",
+    "attributes.winner": "gagnant",
     "attributes.work": "travail",
     "attributes.year": "année"
 }
