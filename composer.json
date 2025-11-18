@@ -1,6 +1,6 @@
 {
     "name": "laravel-lang/attributes",
-    "description": "List of 126 languages for form field names",
+    "description": "Translation of form element names",
     "license": "MIT",
     "type": "library",
     "keywords": [
