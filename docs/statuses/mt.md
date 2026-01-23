@@ -4,12 +4,12 @@ editLink: false
 
 # mt
 
-##### All missed: 13
+##### All missed: 15
 
 
 ### php
 
-##### Missing: 13
+##### Missing: 15
 
 <table width="100%">
 <tr><th width="50%">
@@ -28,6 +28,15 @@ attributes.audience_winner
 </td><td width="50%">
 
 audience winner
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.color
+
+</td><td width="50%">
+
+color
 
 </td></tr>
 <tr><td width="50%">
@@ -91,6 +100,15 @@ attributes.referees
 </td><td width="50%">
 
 referees
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.region
+
+</td><td width="50%">
+
+region
 
 </td></tr>
 <tr><td width="50%">
