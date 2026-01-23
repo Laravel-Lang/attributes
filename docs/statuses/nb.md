@@ -4,12 +4,12 @@ editLink: false
 
 # nb
 
-##### All missed: 1
+##### All missed: 3
 
 
 ### php
 
-##### Missing: 1
+##### Missing: 3
 
 <table width="100%">
 <tr><th width="50%">
@@ -21,6 +21,24 @@ Key
 Value
 
 </th></tr>
+<tr><td width="50%">
+
+attributes.color
+
+</td><td width="50%">
+
+color
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.region
+
+</td><td width="50%">
+
+region
+
+</td></tr>
 <tr><td width="50%">
 
 attributes.slug

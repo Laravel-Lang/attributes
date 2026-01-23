@@ -4,12 +4,12 @@ editLink: false
 
 # ug
 
-##### All missed: 15
+##### All missed: 17
 
 
 ### php
 
-##### Missing: 15
+##### Missing: 17
 
 <table width="100%">
 <tr><th width="50%">
@@ -37,6 +37,15 @@ attributes.body
 </td><td width="50%">
 
 body
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.color
+
+</td><td width="50%">
+
+color
 
 </td></tr>
 <tr><td width="50%">
@@ -91,6 +100,15 @@ attributes.portfolio
 </td><td width="50%">
 
 portfolio
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.region
+
+</td><td width="50%">
+
+region
 
 </td></tr>
 <tr><td width="50%">

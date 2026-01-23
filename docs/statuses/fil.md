@@ -4,12 +4,12 @@ editLink: false
 
 # fil
 
-##### All missed: 18
+##### All missed: 20
 
 
 ### php
 
-##### Missing: 18
+##### Missing: 20
 
 <table width="100%">
 <tr><th width="50%">
@@ -37,6 +37,15 @@ attributes.audience_winner
 </td><td width="50%">
 
 audience winner
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.color
+
+</td><td width="50%">
+
+color
 
 </td></tr>
 <tr><td width="50%">
@@ -136,6 +145,15 @@ attributes.referee
 </td><td width="50%">
 
 referee
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.region
+
+</td><td width="50%">
+
+region
 
 </td></tr>
 <tr><td width="50%">
