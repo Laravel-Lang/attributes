@@ -4,12 +4,12 @@ editLink: false
 
 # ig
 
-##### All missed: 7
+##### All missed: 9
 
 
 ### php
 
-##### Missing: 7
+##### Missing: 9
 
 <table width="100%">
 <tr><th width="50%">
@@ -28,6 +28,15 @@ attributes.audience_winner
 </td><td width="50%">
 
 audience winner
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.color
+
+</td><td width="50%">
+
+color
 
 </td></tr>
 <tr><td width="50%">
@@ -55,6 +64,15 @@ attributes.email
 </td><td width="50%">
 
 email
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.region
+
+</td><td width="50%">
+
+region
 
 </td></tr>
 <tr><td width="50%">

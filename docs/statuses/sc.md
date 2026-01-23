@@ -4,12 +4,12 @@ editLink: false
 
 # sc
 
-##### All missed: 125
+##### All missed: 127
 
 
 ### php
 
-##### Missing: 125
+##### Missing: 127
 
 <table width="100%">
 <tr><th width="50%">
@@ -127,6 +127,15 @@ attributes.city
 </td><td width="50%">
 
 city
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.color
+
+</td><td width="50%">
+
+color
 
 </td></tr>
 <tr><td width="50%">
@@ -793,6 +802,15 @@ attributes.referees
 </td><td width="50%">
 
 referees
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.region
+
+</td><td width="50%">
+
+region
 
 </td></tr>
 <tr><td width="50%">
