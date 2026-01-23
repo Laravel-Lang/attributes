@@ -4,12 +4,12 @@ editLink: false
 
 # lb
 
-##### All missed: 10
+##### All missed: 12
 
 
 ### php
 
-##### Missing: 10
+##### Missing: 12
 
 <table width="100%">
 <tr><th width="50%">
@@ -41,6 +41,15 @@ audience winner
 </td></tr>
 <tr><td width="50%">
 
+attributes.color
+
+</td><td width="50%">
+
+color
+
+</td></tr>
+<tr><td width="50%">
+
 attributes.company
 
 </td><td width="50%">
@@ -64,6 +73,15 @@ attributes.filter
 </td><td width="50%">
 
 filter
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.region
+
+</td><td width="50%">
+
+region
 
 </td></tr>
 <tr><td width="50%">

@@ -4,12 +4,12 @@ editLink: false
 
 # sv
 
-##### All missed: 9
+##### All missed: 11
 
 
 ### php
 
-##### Missing: 9
+##### Missing: 11
 
 <table width="100%">
 <tr><th width="50%">
@@ -41,6 +41,15 @@ audience winner
 </td></tr>
 <tr><td width="50%">
 
+attributes.color
+
+</td><td width="50%">
+
+color
+
+</td></tr>
+<tr><td width="50%">
+
 attributes.company
 
 </td><td width="50%">
@@ -55,6 +64,15 @@ attributes.contest
 </td><td width="50%">
 
 contest
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.region
+
+</td><td width="50%">
+
+region
 
 </td></tr>
 <tr><td width="50%">
