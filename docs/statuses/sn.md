@@ -4,12 +4,12 @@ editLink: false
 
 # sn
 
-##### All missed: 40
+##### All missed: 42
 
 
 ### php
 
-##### Missing: 40
+##### Missing: 42
 
 <table width="100%">
 <tr><th width="50%">
@@ -55,6 +55,15 @@ attributes.audience_winner
 </td><td width="50%">
 
 audience winner
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.color
+
+</td><td width="50%">
+
+color
 
 </td></tr>
 <tr><td width="50%">
@@ -235,6 +244,15 @@ attributes.recaptcha_response_field
 </td><td width="50%">
 
 recaptcha response field
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.region
+
+</td><td width="50%">
+
+region
 
 </td></tr>
 <tr><td width="50%">

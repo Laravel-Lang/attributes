@@ -4,12 +4,12 @@ editLink: false
 
 # fy
 
-##### All missed: 22
+##### All missed: 24
 
 
 ### php
 
-##### Missing: 22
+##### Missing: 24
 
 <table width="100%">
 <tr><th width="50%">
@@ -37,6 +37,15 @@ attributes.audience_winner
 </td><td width="50%">
 
 audience winner
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.color
+
+</td><td width="50%">
+
+color
 
 </td></tr>
 <tr><td width="50%">
@@ -145,6 +154,15 @@ attributes.promo_code
 </td><td width="50%">
 
 promo code
+
+</td></tr>
+<tr><td width="50%">
+
+attributes.region
+
+</td><td width="50%">
+
+region
 
 </td></tr>
 <tr><td width="50%">
