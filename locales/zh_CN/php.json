@@ -100,7 +100,7 @@
     "attributes.short_text": "短文本",
     "attributes.size": "大小",
     "attributes.skills": "技能",
-    "attributes.slug": "别名",
+    "attributes.slug": "Slug",
     "attributes.specialization": "专业化",
     "attributes.started_at": "开始于",
     "attributes.state": "状态",
