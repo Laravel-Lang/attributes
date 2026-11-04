@@ -1,10 +1,11 @@
 ---
-
-## editLink: false
+editLink: false
+---
 
 # de_AT
 
 ##### All missed: 127
+
 
 ### php
 
@@ -1166,3 +1167,4 @@ year
 </table>
 
 [ [go back](../status.md) | [to top](#) ]
+
