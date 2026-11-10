@@ -1,0 +1,22 @@
+{
+    "plugins": [
+        {
+            "vendor": "laravel/framework",
+            "files": [
+                {
+                    "source": "validation.php",
+                    "target": "{locale}/validation.php"
+                }
+            ]
+        },
+        {
+            "vendor": "laravel/lumen-framework",
+            "files": [
+                {
+                    "source": "validation.php",
+                    "target": "{locale}/validation.php"
+                }
+            ]
+        }
+    ]
+}
