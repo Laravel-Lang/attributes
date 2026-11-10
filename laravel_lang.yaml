@@ -1,4 +1,0 @@
-plugins:
-    -   files:
-            -   source: 'validation.php'
-                target: '{locale}/validation.php'
