@@ -4,15 +4,12 @@
     "license": "MIT",
     "type": "library",
     "keywords": [
-        "laravel",
-        "languages",
-        "lang",
-        "translations",
-        "messages",
-        "validation",
+        "laravel-lang",
         "attributes",
-        "form",
-        "fields"
+        "i18n",
+        "lang",
+        "messages",
+        "translations"
     ],
     "authors": [
         {
@@ -24,8 +21,12 @@
             "homepage": "https://github.com/Laravel-Lang"
         }
     ],
+    "homepage": "https://laravel-lang.com",
+    "support": {
+        "source": "https://github.com/Laravel-Lang/mona"
+    },
     "require": {
-        "require": "^8.3",
+        "php": "^8.3",
         "laravel-lang/publisher": "self.version"
     },
     "minimum-stability": "stable",
@@ -33,9 +34,5 @@
     "config": {
         "preferred-install": "dist",
         "sort-packages": true
-    },
-    "homepage": "https://laravel-lang.com",
-    "support": {
-        "source": "https://github.com/Laravel-Lang/mona"
     }
 }
