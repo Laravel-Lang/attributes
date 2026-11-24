@@ -1,11 +1,10 @@
 ---
-editLink: false
----
+
+## editLink: false
 
 # pl
 
 ##### All missed: 2
-
 
 ### php
 
@@ -42,4 +41,3 @@ region
 </table>
 
 [ [go back](../status.md) | [to top](#) ]
-
